@@ -1,0 +1,1124 @@
+{
+  "contents": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "title": "Breakpoints",
+      "link_address": "https://tailwindcss.com/docs/responsive-design",
+      "description": "Breakpoints (screen sizes) that wrap utility classes.",
+      "tags": ""
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "title": "box-decoration-break",
+      "link_address": "https://tailwindcss.com/docs/box-decoration-break",
+      "description": "Sets rendering of an element's fragments when broken across multiple lines, columns, or pages.",
+      "tags": "sm:|&$&|md:|&$&|lg:|&$&|xl:|&$&|2xl:|&$&|"
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "title": "container",
+      "link_address": "https://tailwindcss.com/docs/container",
+      "description": "Sets max-width to match min-width of the current breakpoint.",
+      "tags": ""
+    },
+    {
+      "id": 4,
+      "category_id": 1,
+      "title": "box-sizing",
+      "link_address": "https://tailwindcss.com/docs/box-sizing",
+      "description": "Sets how the total width and height of an element is calculated.",
+      "tags": ""
+    },
+    {
+      "id": 5,
+      "category_id": 1,
+      "title": "display",
+      "link_address": "https://tailwindcss.com/docs/display",
+      "description": "Sets the display box type of an element.",
+      "tags": ""
+    },
+    {
+      "id": 6,
+      "category_id": 1,
+      "title": "float",
+      "link_address": "https://tailwindcss.com/docs/floats",
+      "description": "Sets an element's placement to a side of its container and allows content to wrap around it.",
+      "tags": ""
+    },
+    {
+      "id": 7,
+      "category_id": 1,
+      "title": "clear",
+      "link_address": "https://tailwindcss.com/docs/clear",
+      "description": "Sets whether an element is moved below preceding floated elements.",
+      "tags": ""
+    },
+    {
+      "id": 8,
+      "category_id": 1,
+      "title": "isolation",
+      "link_address": "https://tailwindcss.com/docs/isolation",
+      "description": "Sets whether an element creates a stacking context.",
+      "tags": ""
+    },
+    {
+      "id": 9,
+      "category_id": 1,
+      "title": "object-fit",
+      "link_address": "https://tailwindcss.com/docs/object-fit",
+      "description": "Sets how the content of a replaced element (img or video tag) should be resized.",
+      "tags": ""
+    },
+    {
+      "id": 10,
+      "category_id": 1,
+      "title": "object-position",
+      "link_address": "https://tailwindcss.com/docs/object-position",
+      "description": "Sets the alignment of the selected replaced element.",
+      "tags": ""
+    },
+    {
+      "id": 11,
+      "category_id": 1,
+      "title": "overflow",
+      "link_address": "https://tailwindcss.com/docs/overflow",
+      "description": "Sets how to handle content that's too big for its container.",
+      "tags": ""
+    },
+    {
+      "id": 12,
+      "category_id": 1,
+      "title": "overscroll",
+      "link_address": "https://tailwindcss.com/docs/overscroll-behavior",
+      "description": "Sets browser behavior upon reaching the boundary of a scrolling area.",
+      "tags": ""
+    },
+    {
+      "id": 13,
+      "category_id": 1,
+      "title": "position",
+      "link_address": "https://tailwindcss.com/docs/positioning",
+      "description": "Sets an element's position.",
+      "tags": ""
+    },
+    {
+      "id": 14,
+      "category_id": 1,
+      "title": "top, right, bottom, left",
+      "link_address": "https://tailwindcss.com/docs/top-right-bottom-left",
+      "description": "Sets the placement of a positioned element.",
+      "tags": ""
+    },
+    {
+      "id": 15,
+      "category_id": 1,
+      "title": "visibility",
+      "link_address": "https://tailwindcss.com/docs/visibility",
+      "description": "Show or hide without affecting the layout of the document.",
+      "tags": ""
+    },
+    {
+      "id": 16,
+      "category_id": 1,
+      "title": "z-index",
+      "link_address": "https://tailwindcss.com/docs/z-index ",
+      "description": "Sets the z-order ('stack order') of a positioned element.",
+      "tags": ""
+    },
+    {
+      "id": 17,
+      "category_id": 2,
+      "title": "padding",
+      "link_address": "https://tailwindcss.com/docs/padding",
+      "description": "Controls padding in 0.25rem increments.",
+      "tags": ""
+    },
+    {
+      "id": 18,
+      "category_id": 2,
+      "title": "margin",
+      "link_address": "https://tailwindcss.com/docs/margin",
+      "description": "Controls margin (and negative margin) in 0.25rem increments.",
+      "tags": ""
+    },
+    {
+      "id": 19,
+      "category_id": 2,
+      "title": "space between",
+      "link_address": "https://tailwindcss.com/docs/space",
+      "description": "Sets left or top (x or y) margin between child elements, but skips the first element.",
+      "tags": ""
+    },
+    {
+      "id": 20,
+      "category_id": 3,
+      "title": "background-attachment",
+      "link_address": "https://tailwindcss.com/docs/background-attachment",
+      "description": "Sets behavior of background images when scrolling.",
+      "tags": ""
+    },
+    {
+      "id": 21,
+      "category_id": 3,
+      "title": "background-clip",
+      "link_address": "https://tailwindcss.com/docs/background-clip",
+      "description": "Sets where a background extends.",
+      "tags": ""
+    },
+    {
+      "id": 22,
+      "category_id": 3,
+      "title": "background-color",
+      "link_address": "https://tailwindcss.com/docs/background-color",
+      "description": "Sets background color.",
+      "tags": ""
+    },
+    {
+      "id": 23,
+      "category_id": 3,
+      "title": "background opacity",
+      "link_address": "https://tailwindcss.com/docs/background-opacity",
+      "description": "Sets background opacity when used with bg-[color].",
+      "tags": ""
+    },
+    {
+      "id": 24,
+      "category_id": 3,
+      "title": "background-position",
+      "link_address": "https://tailwindcss.com/docs/background-position",
+      "description": "Sets position of a background image.",
+      "tags": ""
+    },
+    {
+      "id": 25,
+      "category_id": 3,
+      "title": "background-repeat",
+      "link_address": "https://tailwindcss.com/docs/background-repeat",
+      "description": "Sets repetition of a background image.",
+      "tags": ""
+    },
+    {
+      "id": 26,
+      "category_id": 3,
+      "title": "background-size",
+      "link_address": "https://tailwindcss.com/docs/background-size",
+      "description": "Sets background size of a background image.",
+      "tags": ""
+    },
+    {
+      "id": 27,
+      "category_id": 3,
+      "title": "background-image",
+      "link_address": "https://tailwindcss.com/docs/background-image",
+      "description": "Sets background image.",
+      "tags": ""
+    },
+    {
+      "id": 28,
+      "category_id": 3,
+      "title": "gradient color ",
+      "link_address": "https://tailwindcss.com/docs/gradient-color-stops",
+      "description": "Sets the background color gradients and where to stop.",
+      "tags": ""
+    },
+    {
+      "id": 29,
+      "category_id": 4,
+      "title": "border-collapse",
+      "link_address": "https://tailwindcss.com/docs/border-collapse",
+      "description": "Collapse or separate table borders.",
+      "tags": ""
+    },
+    {
+      "id": 30,
+      "category_id": 4,
+      "title": "table-layout",
+      "link_address": "https://tailwindcss.com/docs/table-layout",
+      "description": "Defines the algorithm used to lay out table cells, rows, and columns.",
+      "tags": ""
+    },
+    {
+      "id": 31,
+      "category_id": 5,
+      "title": "scale",
+      "link_address": "https://tailwindcss.com/docs/scale",
+      "description": "Scales an element that has transform applied.",
+      "tags": ""
+    },
+    {
+      "id": 32,
+      "category_id": 5,
+      "title": "rotate",
+      "link_address": "https://tailwindcss.com/docs/rotate",
+      "description": "Rotates an element that has transform applied.",
+      "tags": ""
+    },
+    {
+      "id": 33,
+      "category_id": 5,
+      "title": "translate",
+      "link_address": "https://tailwindcss.com/docs/translate",
+      "description": "Translates an element that has transform applied.",
+      "tags": ""
+    },
+    {
+      "id": 34,
+      "category_id": 5,
+      "title": "skew",
+      "link_address": "https://tailwindcss.com/docs/skew",
+      "description": "Skews an element that has transform applied.",
+      "tags": ""
+    },
+    {
+      "id": 35,
+      "category_id": 5,
+      "title": "transform-origin",
+      "link_address": "https://tailwindcss.com/docs/transform-origi",
+      "description": "Sets the origin of an element's transforms. Think of the origin as pushing a thumbtack into the element at the specified position.",
+      "tags": ""
+    },
+    {
+      "id": 36,
+      "category_id": 5,
+      "title": "transform",
+      "link_address": "https://tailwindcss.com/docs/transform",
+      "description": "Sets the transform of an element.",
+      "tags": ""
+    },
+    {
+      "id": 37,
+      "category_id": 6,
+      "title": "box-shadow",
+      "link_address": "https://tailwindcss.com/docs/box-shadow",
+      "description": "Sets the shadow around an element.",
+      "tags": ""
+    },
+    {
+      "id": 38,
+      "category_id": 6,
+      "title": "opacity",
+      "link_address": "https://tailwindcss.com/docs/opacity",
+      "description": "Sets the transparency of an element.",
+      "tags": ""
+    },
+    {
+      "id": 39,
+      "category_id": 6,
+      "title": "mix-blend-mode",
+      "link_address": "https://tailwindcss.com/docs/mix-blend-mode",
+      "description": "Sets how an element blends with the background.",
+      "tags": ""
+    },
+    {
+      "id": 40,
+      "category_id": 6,
+      "title": "background-blend-mode",
+      "link_address": "https://tailwindcss.com/docs/background-blend-mode",
+      "description": "Sets how an element's background images blend with its background color.",
+      "tags": ""
+    },
+    {
+      "id": 41,
+      "category_id": 7,
+      "title": "display",
+      "link_address": "https://tailwindcss.com/docs/display",
+      "description": "Sets element to be a flex container.",
+      "tags": ""
+    },
+    {
+      "id": 42,
+      "category_id": 7,
+      "title": "flex-direction",
+      "link_address": "https://tailwindcss.com/docs/flexbox-direction",
+      "description": "Sets direction of flex items.",
+      "tags": ""
+    },
+    {
+      "id": 43,
+      "category_id": 7,
+      "title": "flex-wrap",
+      "link_address": "https://tailwindcss.com/docs/flexbox-wrapping",
+      "description": "Creates how flex items wrap.",
+      "tags": ""
+    },
+    {
+      "id": 44,
+      "category_id": 7,
+      "title": "flex",
+      "link_address": "https://tailwindcss.com/docs/flex",
+      "description": "Controls how flex items grow and shrink.",
+      "tags": ""
+    },
+    {
+      "id": 45,
+      "category_id": 7,
+      "title": "flex-grow",
+      "link_address": "https://tailwindcss.com/docs/flex-grow",
+      "description": "Controls how flex items grow.",
+      "tags": ""
+    },
+    {
+      "id": 46,
+      "category_id": 7,
+      "title": "flex-shrink",
+      "link_address": "https://tailwindcss.com/docs/flex-shrink",
+      "description": "Controls how flex items shrink.",
+      "tags": ""
+    },
+    {
+      "id": 47,
+      "category_id": 7,
+      "title": "order",
+      "link_address": "https://tailwindcss.com/docs/order",
+      "description": "Controls how flex items are ordered.",
+      "tags": ""
+    },
+    {
+      "id": 48,
+      "category_id": 8,
+      "title": "width",
+      "link_address": "https://tailwindcss.com/docs/width",
+      "description": "Sets the width of an element.",
+      "tags": ""
+    },
+    {
+      "id": 49,
+      "category_id": 8,
+      "title": "min-width",
+      "link_address": "https://tailwindcss.com/docs/min-width",
+      "description": "Sets the minimum width of an element.",
+      "tags": ""
+    },
+    {
+      "id": 50,
+      "category_id": 8,
+      "title": "max-width",
+      "link_address": "https://tailwindcss.com/docs/max-width",
+      "description": "Sets the maximum width of an element.",
+      "tags": ""
+    },
+    {
+      "id": 51,
+      "category_id": 8,
+      "title": "height",
+      "link_address": "https://tailwindcss.com/docs/height",
+      "description": "Sets the height of an element.",
+      "tags": ""
+    },
+    {
+      "id": 52,
+      "category_id": 8,
+      "title": "min-height",
+      "link_address": "https://tailwindcss.com/docs/min-height",
+      "description": "Sets the minimum height of an element.",
+      "tags": ""
+    },
+    {
+      "id": 53,
+      "category_id": 8,
+      "title": "max-height",
+      "link_address": "https://tailwindcss.com/docs/max-height",
+      "description": "Sets the maximum height of an element.",
+      "tags": ""
+    },
+    {
+      "id": 54,
+      "category_id": 9,
+      "title": "border-radius",
+      "link_address": "https://tailwindcss.com/docs/border-radius",
+      "description": "Sets border radius.",
+      "tags": ""
+    },
+    {
+      "id": 55,
+      "category_id": 9,
+      "title": "border-width",
+      "link_address": "https://tailwindcss.com/docs/border-width",
+      "description": "Sets border width in increments of 1px.",
+      "tags": ""
+    },
+    {
+      "id": 56,
+      "category_id": 9,
+      "title": "border-color",
+      "link_address": "https://tailwindcss.com/docs/border-color",
+      "description": "Sets border color.",
+      "tags": ""
+    },
+    {
+      "id": 57,
+      "category_id": 9,
+      "title": "border opacity",
+      "link_address": "https://tailwindcss.com/docs/border-opacity",
+      "description": "Sets border opacity when used with border-[color].",
+      "tags": ""
+    },
+    {
+      "id": 58,
+      "category_id": 9,
+      "title": "border-style",
+      "link_address": "https://tailwindcss.com/docs/border-style",
+      "description": "Sets border style.",
+      "tags": ""
+    },
+    {
+      "id": 59,
+      "category_id": 9,
+      "title": "divide width",
+      "link_address": "https://tailwindcss.com/docs/divide-width",
+      "description": "Sets left or top (x or y) border width between child elements, but skips the first element.",
+      "tags": ""
+    },
+    {
+      "id": 60,
+      "category_id": 9,
+      "title": "divide color",
+      "link_address": "https://tailwindcss.com/docs/divide-color",
+      "description": "Sets border color between child elements when using divide width.",
+      "tags": ""
+    },
+    {
+      "id": 61,
+      "category_id": 9,
+      "title": "divide opacity",
+      "link_address": "https://tailwindcss.com/docs/divide-opacity",
+      "description": "Sets border opacity between elements when used with divide-[color].",
+      "tags": ""
+    },
+    {
+      "id": 62,
+      "category_id": 9,
+      "title": "divide style",
+      "link_address": "https://tailwindcss.com/docs/divide-style",
+      "description": "Sets border style between elements when using divide width.",
+      "tags": ""
+    },
+    {
+      "id": 63,
+      "category_id": 9,
+      "title": "ring width",
+      "link_address": "https://tailwindcss.com/docs/ring-width",
+      "description": "Sets the width of outline rings using box shadows.",
+      "tags": ""
+    },
+    {
+      "id": 64,
+      "category_id": 9,
+      "title": "ring color",
+      "link_address": "https://tailwindcss.com/docs/ring-color",
+      "description": "Sets the color of the outline ring.",
+      "tags": ""
+    },
+    {
+      "id": 65,
+      "category_id": 9,
+      "title": "ring opacity",
+      "link_address": "https://tailwindcss.com/docs/ring-opacity",
+      "description": "Sets the opacity of the outline ring.",
+      "tags": ""
+    },
+    {
+      "id": 66,
+      "category_id": 9,
+      "title": "ring offset width",
+      "link_address": "https://tailwindcss.com/docs/ring-offset-width",
+      "description": "Sets an offset for outline rings.",
+      "tags": ""
+    },
+    {
+      "id": 67,
+      "category_id": 9,
+      "title": "ring offset color",
+      "link_address": "https://tailwindcss.com/docs/ring-offset-color",
+      "description": "Sets the color of the outline ring offset.",
+      "tags": ""
+    },
+    {
+      "id": 68,
+      "category_id": 10,
+      "title": "transition-property",
+      "link_address": "https://tailwindcss.com/docs/transition-property",
+      "description": "Sets the CSS properties affected by transition animations.",
+      "tags": ""
+    },
+    {
+      "id": 69,
+      "category_id": 10,
+      "title": "transition-duration",
+      "link_address": "https://tailwindcss.com/docs/transition-duration",
+      "description": "Sets the length of time for a transition animations to complete.",
+      "tags": ""
+    },
+    {
+      "id": 70,
+      "category_id": 10,
+      "title": "transition-timing-function",
+      "link_address": "https://tailwindcss.com/docs/transition-timing-function",
+      "description": "Sets the easing function of transition animations.",
+      "tags": ""
+    },
+    {
+      "id": 71,
+      "category_id": 10,
+      "title": "transition-delay",
+      "link_address": "https://tailwindcss.com/docs/transition-delay",
+      "description": "Sets the delay for transitions.",
+      "tags": ""
+    },
+    {
+      "id": 72,
+      "category_id": 10,
+      "title": "animation",
+      "link_address": "https://tailwindcss.com/docs/animation",
+      "description": "Sets CSS animations.",
+      "tags": ""
+    },
+    {
+      "id": 73,
+      "category_id": 11,
+      "title": "appearance",
+      "link_address": "https://tailwindcss.com/docs/appearance",
+      "description": "Disables native styling based on the operating system's theme.",
+      "tags": ""
+    },
+    {
+      "id": 74,
+      "category_id": 11,
+      "title": "cursor",
+      "link_address": "https://tailwindcss.com/docs/cursor",
+      "description": "Changes the cursor when hovering over an element.",
+      "tags": ""
+    },
+    {
+      "id": 75,
+      "category_id": 11,
+      "title": "outline",
+      "link_address": "https://tailwindcss.com/docs/outline",
+      "description": "Sets the outline of the element.",
+      "tags": ""
+    },
+    {
+      "id": 76,
+      "category_id": 11,
+      "title": "pointer-events",
+      "link_address": "https://tailwindcss.com/docs/pointer-events",
+      "description": "Specifies whether an element is the target of mouse events.",
+      "tags": ""
+    },
+    {
+      "id": 77,
+      "category_id": 11,
+      "title": "resize",
+      "link_address": "https://tailwindcss.com/docs/resize",
+      "description": "Sets whether an element is resizable, along with direction.",
+      "tags": ""
+    },
+    {
+      "id": 78,
+      "category_id": 11,
+      "title": "user-select",
+      "link_address": "https://tailwindcss.com/docs/user-select",
+      "description": "Controls whether the user can select text.",
+      "tags": ""
+    },
+    {
+      "id": 79,
+      "category_id": 11,
+      "title": "accessibility",
+      "link_address": "https://tailwindcss.com/docs/screen-readers/",
+      "description": "Controls whether an element is visually hidden but still accessible to screen readers.",
+      "tags": ""
+    },
+    {
+      "id": 80,
+      "category_id": 12,
+      "title": "fill",
+      "link_address": "https://tailwindcss.com/docs/fill",
+      "description": "Sets the color to paint an SVG.",
+      "tags": ""
+    },
+    {
+      "id": 81,
+      "category_id": 12,
+      "title": "stroke",
+      "link_address": "https://tailwindcss.com/docs/stroke",
+      "description": "Sets the outline color of an SVG.",
+      "tags": ""
+    },
+    {
+      "id": 82,
+      "category_id": 12,
+      "title": "stroke-width",
+      "link_address": "https://tailwindcss.com/docs/stroke-width",
+      "description": "Sets the outline width of an SVG.",
+      "tags": ""
+    },
+    {
+      "id": 83,
+      "category_id": 13,
+      "title": "grid-template-columns",
+      "link_address": "https://tailwindcss.com/docs/grid-template-columns",
+      "description": "Defines columns for grid layout.",
+      "tags": ""
+    },
+    {
+      "id": 84,
+      "category_id": 13,
+      "title": "grid-column, start/end",
+      "link_address": "https://tailwindcss.com/docs/grid-column",
+      "description": "Sets a grid item size and location within the grid column.",
+      "tags": ""
+    },
+    {
+      "id": 85,
+      "category_id": 13,
+      "title": "grid-template-rows",
+      "link_address": "https://tailwindcss.com/docs/grid-template-rows",
+      "description": "Defines rows for grid layout.",
+      "tags": ""
+    },
+    {
+      "id": 86,
+      "category_id": 13,
+      "title": "grid-row, start/end",
+      "link_address": "https://tailwindcss.com/docs/grid-row",
+      "description": "Sets a grid item size and location within the grid row.",
+      "tags": ""
+    },
+    {
+      "id": 87,
+      "category_id": 13,
+      "title": "grid-auto-flow",
+      "link_address": "https://tailwindcss.com/docs/grid-auto-flow",
+      "description": "Controls the auto placement of grid elements.",
+      "tags": ""
+    },
+    {
+      "id": 88,
+      "category_id": 13,
+      "title": "grid-auto-columns",
+      "link_address": "https://tailwindcss.com/docs/grid-auto-columns",
+      "description": "Controls the size of auto-generated (implicit) grid columns.",
+      "tags": ""
+    },
+    {
+      "id": 89,
+      "category_id": 13,
+      "title": "grid-auto-rows",
+      "link_address": "https://tailwindcss.com/docs/grid-auto-rows",
+      "description": "Controls the size of auto-generated (implicit) grid rows.",
+      "tags": ""
+    },
+    {
+      "id": 90,
+      "category_id": 13,
+      "title": "gap",
+      "link_address": "https://tailwindcss.com/docs/gap",
+      "description": "Sets the gaps (gutters) between rows and columns.",
+      "tags": ""
+    },
+    {
+      "id": 91,
+      "category_id": 14,
+      "title": "justify-content",
+      "link_address": "https://tailwindcss.com/docs/justify-content",
+      "description": "Controls how flex items are positioned along container's main axis.",
+      "tags": ""
+    },
+    {
+      "id": 92,
+      "category_id": 14,
+      "title": "justify-items",
+      "link_address": "https://tailwindcss.com/docs/justify-items",
+      "description": "Controls default alignment for items on the inline axis for grids.",
+      "tags": ""
+    },
+    {
+      "id": 93,
+      "category_id": 14,
+      "title": "justify-self",
+      "link_address": "https://tailwindcss.com/docs/justify-self",
+      "description": "Controls element alignment on the inline axis for a grid item.",
+      "tags": ""
+    },
+    {
+      "id": 94,
+      "category_id": 14,
+      "title": "align-content",
+      "link_address": "https://tailwindcss.com/docs/align-content",
+      "description": "Controls how lines are positioned in multi-line flex containers.",
+      "tags": ""
+    },
+    {
+      "id": 95,
+      "category_id": 14,
+      "title": "align-items",
+      "link_address": "https://tailwindcss.com/docs/align-items",
+      "description": "Sets flex items position along a container's cross axis.",
+      "tags": ""
+    },
+    {
+      "id": 96,
+      "category_id": 14,
+      "title": "align-self",
+      "link_address": "https://tailwindcss.com/docs/align-self",
+      "description": "Controls how an individual flex item is positioned along container's cross axis.",
+      "tags": ""
+    },
+    {
+      "id": 97,
+      "category_id": 14,
+      "title": "place-content",
+      "link_address": "https://tailwindcss.com/docs/place-content",
+      "description": "Controls alignment in both directions at once for grid or flexbox.",
+      "tags": ""
+    },
+    {
+      "id": 98,
+      "category_id": 14,
+      "title": "place-items",
+      "link_address": "https://tailwindcss.com/docs/place-items",
+      "description": "Controls alignment of items in both directions at once for grid or flexbox.",
+      "tags": ""
+    },
+    {
+      "id": 99,
+      "category_id": 14,
+      "title": "place-self",
+      "link_address": "https://tailwindcss.com/docs/place-self",
+      "description": "Controls alignment of individual element in both directions at once for grid or flexbox.",
+      "tags": ""
+    },
+    {
+      "id": 100,
+      "category_id": 15,
+      "title": "text color",
+      "link_address": "https://tailwindcss.com/docs/text-color",
+      "description": "Sets the text color.",
+      "tags": ""
+    },
+    {
+      "id": 101,
+      "category_id": 15,
+      "title": "text opacity",
+      "link_address": "https://tailwindcss.com/docs/text-color",
+      "description": "Sets text opacity when used with text-[color].",
+      "tags": ""
+    },
+    {
+      "id": 102,
+      "category_id": 15,
+      "title": "font-family",
+      "link_address": "https://tailwindcss.com/docs/fonts",
+      "description": "Sets the font family.",
+      "tags": ""
+    },
+    {
+      "id": 103,
+      "category_id": 15,
+      "title": "font-size",
+      "link_address": "https://tailwindcss.com/docs/text-sizing",
+      "description": "Sets the font size.",
+      "tags": ""
+    },
+    {
+      "id": 104,
+      "category_id": 15,
+      "title": "font-smoothing",
+      "link_address": "https://tailwindcss.com/docs/text-style",
+      "description": "Sets the antialiasing of the font.",
+      "tags": ""
+    },
+    {
+      "id": 105,
+      "category_id": 15,
+      "title": "font-style",
+      "link_address": "https://tailwindcss.com/docs/text-style",
+      "description": "Sets the style of the font.",
+      "tags": ""
+    },
+    {
+      "id": 106,
+      "category_id": 15,
+      "title": "font-weight",
+      "link_address": "https://tailwindcss.com/docs/font-weight",
+      "description": "Sets the font weight.",
+      "tags": ""
+    },
+    {
+      "id": 107,
+      "category_id": 15,
+      "title": "font-variant-numeric",
+      "link_address": "https://tailwindcss.com/docs/font-variant-numeric",
+      "description": "Sets the font number variant.",
+      "tags": ""
+    },
+    {
+      "id": 108,
+      "category_id": 15,
+      "title": "letter-spacing",
+      "link_address": "https://tailwindcss.com/docs/letter-spacing",
+      "description": "Sets the spacing between letters.",
+      "tags": ""
+    },
+    {
+      "id": 109,
+      "category_id": 15,
+      "title": "line-height",
+      "link_address": "https://tailwindcss.com/docs/line-height",
+      "description": "Sets the line height.",
+      "tags": ""
+    },
+    {
+      "id": 110,
+      "category_id": 15,
+      "title": "list-style-type",
+      "link_address": "https://tailwindcss.com/docs/list-style-type",
+      "description": "Sets the bullet style of a list.",
+      "tags": ""
+    },
+    {
+      "id": 111,
+      "category_id": 15,
+      "title": "list-style-position",
+      "link_address": "https://tailwindcss.com/docs/list-style-position",
+      "description": "Sets the position of a list's bullets.",
+      "tags": ""
+    },
+    {
+      "id": 112,
+      "category_id": 15,
+      "title": "::placeholder color",
+      "link_address": "https://tailwindcss.com/docs/placeholder-color",
+      "description": "Sets the placeholder color using the ::placeholder pseudo element.",
+      "tags": ""
+    },
+    {
+      "id": 113,
+      "category_id": 15,
+      "title": "::placeholder opacity",
+      "link_address": "https://tailwindcss.com/docs/placeholder-opacity",
+      "description": "Sets the placeholder opacity when used with placeholder-[color].",
+      "tags": ""
+    },
+    {
+      "id": 114,
+      "category_id": 15,
+      "title": "text-align",
+      "link_address": "https://tailwindcss.com/docs/text-alignment",
+      "description": "Sets the alignment of text.",
+      "tags": ""
+    },
+    {
+      "id": 115,
+      "category_id": 15,
+      "title": "text-decoration",
+      "link_address": "https://tailwindcss.com/docs/text-decoration",
+      "description": "Sets the text-decoration of an element.",
+      "tags": ""
+    },
+    {
+      "id": 116,
+      "category_id": 15,
+      "title": "text-transform",
+      "link_address": "https://tailwindcss.com/docs/text-transform",
+      "description": "Sets the capitalization of text.",
+      "tags": ""
+    },
+    {
+      "id": 117,
+      "category_id": 15,
+      "title": "text-overflow",
+      "link_address": "https://tailwindcss.com/docs/text-overflow",
+      "description": "Sets the overflow of text.",
+      "tags": ""
+    },
+    {
+      "id": 118,
+      "category_id": 15,
+      "title": "vertical-align",
+      "link_address": "https://tailwindcss.com/docs/vertical-alignment",
+      "description": "Sets the vertical alignment of an inline or table-cell box.",
+      "tags": ""
+    },
+    {
+      "id": 119,
+      "category_id": 15,
+      "title": "white-space",
+      "link_address": "https://tailwindcss.com/docs/whitespace",
+      "description": "Sets the whitespace of an element.",
+      "tags": ""
+    },
+    {
+      "id": 120,
+      "category_id": 15,
+      "title": "word-break",
+      "link_address": "https://tailwindcss.com/docs/word-break",
+      "description": "Sets the word breaks of an element.",
+      "tags": ""
+    },
+    {
+      "id": 121,
+      "category_id": 16,
+      "title": "filter",
+      "link_address": "https://tailwindcss.com/docs/filter",
+      "description": "Sets filter on elements.",
+      "tags": ""
+    },
+    {
+      "id": 122,
+      "category_id": 16,
+      "title": "blur",
+      "link_address": "https://tailwindcss.com/docs/blur",
+      "description": "Sets blur filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 123,
+      "category_id": 16,
+      "title": "brightness",
+      "link_address": "https://tailwindcss.com/docs/brightness",
+      "description": "Sets brightness filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 124,
+      "category_id": 16,
+      "title": "contrast",
+      "link_address": "https://tailwindcss.com/docs/contrast",
+      "description": "Sets contrast filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 125,
+      "category_id": 16,
+      "title": "drop-shadow",
+      "link_address": "https://tailwindcss.com/docs/drop-shadow",
+      "description": "Sets drop-shadow filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 126,
+      "category_id": 16,
+      "title": "grayscale",
+      "link_address": "https://tailwindcss.com/docs/grayscale",
+      "description": "Sets grayscale filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 127,
+      "category_id": 16,
+      "title": "hue-rotate",
+      "link_address": "https://tailwindcss.com/docs/hue-rotate",
+      "description": "Sets hue-rotate filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 128,
+      "category_id": 16,
+      "title": "invert",
+      "link_address": "https://tailwindcss.com/docs/invert",
+      "description": "Sets invert filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 129,
+      "category_id": 16,
+      "title": "saturate",
+      "link_address": "https://tailwindcss.com/docs/saturate",
+      "description": "Sets saturate filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 130,
+      "category_id": 16,
+      "title": "sepia",
+      "link_address": "https://tailwindcss.com/docs/sepia",
+      "description": "Sets sepia filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 131,
+      "category_id": 16,
+      "title": "backdrop-filter",
+      "link_address": "https://tailwindcss.com/docs/backdrop-filter",
+      "description": "Sets backdrop filter filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 132,
+      "category_id": 16,
+      "title": "backdrop-blur",
+      "link_address": "https://tailwindcss.com/docs/backdrop-blur",
+      "description": "Sets backdrop blur filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 133,
+      "category_id": 16,
+      "title": "backdrop-brightness",
+      "link_address": "https://tailwindcss.com/docs/backdrop-brightness",
+      "description": "Sets backdrop brightness filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 134,
+      "category_id": 16,
+      "title": "backdrop-contrast",
+      "link_address": "https://tailwindcss.com/docs/backdrop-contrast",
+      "description": "Sets backdrop contrast filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 135,
+      "category_id": 16,
+      "title": "backdrop-grayscale",
+      "link_address": "https://tailwindcss.com/docs/backdrop-grayscale",
+      "description": "Sets backdrop grayscale filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 136,
+      "category_id": 16,
+      "title": "backdrop-hue-rotate",
+      "link_address": "https://tailwindcss.com/docs/backdrop-hue-rotate",
+      "description": "Sets backdrop hue-rotate filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 137,
+      "category_id": 16,
+      "title": "backdrop-invert",
+      "link_address": "https://tailwindcss.com/docs/backdrop-invert",
+      "description": "Sets backdrop invert filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 138,
+      "category_id": 16,
+      "title": "backdrop-opacity",
+      "link_address": "https://tailwindcss.com/docs/backdrop-opacity",
+      "description": "Sets backdrop opacity filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 139,
+      "category_id": 16,
+      "title": "backdrop-saturate",
+      "link_address": "https://tailwindcss.com/docs/backdrop-saturate",
+      "description": "Sets backdrop saturate filter on elements (use with filter utility).",
+      "tags": ""
+    },
+    {
+      "id": 140,
+      "category_id": 16,
+      "title": "backdrop-sepia",
+      "link_address": "https://tailwindcss.com/docs/backdrop-sepia",
+      "description": "Sets backdrop sepia filter on elements (use with filter utility).",
+      "tags": ""
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "title": "Layout"
+    },
+    {
+      "id": 2,
+      "title": "Spacing"
+    },
+    {
+      "id": 3,
+      "title": "Backgrounds"
+    },
+    {
+      "id": 4,
+      "title": "Tables"
+    },
+    {
+      "id": 5,
+      "title": "Transforms"
+    },
+    {
+      "id": 6,
+      "title": "Effects"
+    },
+    {
+      "id": 7,
+      "title": "Flexbox"
+    },
+    {
+      "id": 8,
+      "title": "Sizing"
+    },
+    {
+      "id": 9,
+      "title": "Borders"
+    },
+    {
+      "id": 10,
+      "title": "Transitions and Animation"
+    },
+    {
+      "id": 11,
+      "title": "Interactivity"
+    },
+    {
+      "id": 12,
+      "title": "SVG"
+    },
+    {
+      "id": 13,
+      "title": "Grid"
+    },
+    {
+      "id": 14,
+      "title": "Box Alignment"
+    },
+    {
+      "id": 15,
+      "title": "Typography"
+    },
+    {
+      "id": 16,
+      "title": "Filter"
+    }
+  ]
+}
