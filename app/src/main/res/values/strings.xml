@@ -14,4 +14,15 @@
     <string name="key">Key</string>
     <string name="value">Value</string>
     <string name="docs">Docs</string>
+    <string name="added_to_bookmark">Added to Bookmark</string>
+    <string name="delete">Delete</string>
+    <string name="bookmark_deleted">Bookmark Deleted</string>
+    <string name="connect_with_us">Connect with US</string>
+    <string name="version">Version 1.0</string>
+    <string name="about_page_description">
+        Tailwind CSS Cheat App developed to help you have access to all resources offline,
+        bookmark important contents and view more detail of each section through the documentation
+        website of tailwind inside application.
+    </string>
+
 </resources>

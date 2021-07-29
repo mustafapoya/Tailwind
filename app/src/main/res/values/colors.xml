@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!--White Theme Color-->
-    <color name="blue_200">#cdd7e0</color>
+    <color name="blue_200">#B2D7FA</color>
     <color name="blue_500">#517da2</color>
     <color name="blue_700">#426382</color>
     <color name="green_200">#effedd</color>

@@ -12,9 +12,6 @@ import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.widget.ViewPager2;
 
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
-import com.google.android.material.badge.BadgeDrawable;
 import com.google.android.material.tabs.TabItem;
 import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
@@ -24,8 +21,6 @@ import net.golbarg.tailwind.db.DatabaseHandler;
 import net.golbarg.tailwind.db.TableContent;
 import net.golbarg.tailwind.model.Content;
 import net.golbarg.tailwind.model.ContentValue;
-import net.golbarg.tailwind.ui.home.content.ContentFragment;
-import net.golbarg.tailwind.ui.home.content.ContentListAdapter;
 
 import java.util.ArrayList;
 
