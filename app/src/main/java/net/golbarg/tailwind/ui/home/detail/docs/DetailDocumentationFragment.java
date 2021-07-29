@@ -1,4 +1,4 @@
-package net.golbarg.tailwind.ui.home.detail;
+package net.golbarg.tailwind.ui.home.detail.docs;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -6,27 +6,21 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
-import android.widget.ListView;
 import android.widget.ProgressBar;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
 
-import com.google.android.gms.ads.AdView;
-
 import net.golbarg.tailwind.R;
 import net.golbarg.tailwind.db.DatabaseHandler;
 import net.golbarg.tailwind.db.TableContent;
 import net.golbarg.tailwind.model.Content;
-import net.golbarg.tailwind.ui.home.content.ContentListAdapter;
-
-import java.util.ArrayList;
+import net.golbarg.tailwind.ui.home.detail.content.DetailContentFragment;
 
 public class DetailDocumentationFragment extends Fragment {
     public static final String TAG = DetailContentFragment.class.getName();
 
     Context context;
-    private AdView mAdViewScreenBanner;
     ProgressBar progressLoading;
     WebView webView;
     DatabaseHandler dbHandler;

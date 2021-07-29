@@ -1,4 +1,4 @@
-package net.golbarg.tailwind.ui.home.detail;
+package net.golbarg.tailwind.ui.home.detail.content;
 
 import android.app.Activity;
 import android.util.Log;

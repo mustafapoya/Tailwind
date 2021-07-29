@@ -40,7 +40,7 @@ public class HomeFragment extends Fragment {
         context = root.getContext();
         dbHandler = new DatabaseHandler(context);
 
-        mAdViewScreenBanner = root.findViewById(R.id.adViewHomeScreenBanner);
+        mAdViewScreenBanner = root.findViewById(R.id.adViewScreenBanner);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdViewScreenBanner.loadAd(adRequest);
 

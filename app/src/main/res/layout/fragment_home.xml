@@ -24,13 +24,13 @@
     <!-- real_id="ca-app-pub-3540008829614888/9913321644" -->
     <!-- test_id="ca-app-pub-3940256099942544/6300978111" -->
     <com.google.android.gms.ads.AdView
-        android:id="@+id/adViewHomeScreenBanner"
+        android:id="@+id/adViewScreenBanner"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         ads:adSize="BANNER"
-        ads:adUnitId="ca-app-pub-3540008829614888/9913321644"
+        ads:adUnitId="ca-app-pub-3940256099942544/6300978111"
         ads:layout_constraintEnd_toEndOf="parent"
         ads:layout_constraintStart_toStartOf="parent"
         ads:layout_constraintTop_toBottomOf="@id/progress_loading" />
@@ -43,5 +43,5 @@
         ads:layout_constraintBottom_toBottomOf="parent"
         ads:layout_constraintEnd_toEndOf="parent"
         ads:layout_constraintStart_toStartOf="parent"
-        ads:layout_constraintTop_toBottomOf="@+id/adViewHomeScreenBanner" />
+        ads:layout_constraintTop_toBottomOf="@+id/adViewScreenBanner" />
 </androidx.constraintlayout.widget.ConstraintLayout>

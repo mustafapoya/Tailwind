@@ -5,6 +5,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
+import net.golbarg.tailwind.ui.home.detail.content.DetailContentFragment;
+import net.golbarg.tailwind.ui.home.detail.docs.DetailDocumentationFragment;
+
 public class DetailPagerAdapter extends FragmentStateAdapter {
     private int numberOfTabs;
     private int contentId;
