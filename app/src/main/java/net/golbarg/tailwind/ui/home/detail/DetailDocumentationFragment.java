@@ -48,10 +48,14 @@ public class DetailDocumentationFragment extends Fragment {
         Content content = tableContent.findById(contentId);
 
         progressLoading = root.findViewById(R.id.progress_loading);
+        webView = root.findViewById(R.id.web_browser);
         progressLoading.setVisibility(View.GONE);
 
-        webView = root.findViewById(R.id.web_browser);
-        webView.loadUrl(content.getLinkAddress());
+        try {
+            webView.loadUrl(content.getLinkAddress());
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
 
         return root;
     }

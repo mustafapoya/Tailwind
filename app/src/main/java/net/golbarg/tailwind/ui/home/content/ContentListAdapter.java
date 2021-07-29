@@ -79,6 +79,7 @@ public class ContentListAdapter extends ArrayAdapter<Content> {
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         DetailFragment fragment = new DetailFragment(contentId);
         transaction.replace(R.id.nav_host_fragment_activity_main, fragment);
+        transaction.addToBackStack("xyz");
         transaction.commit();
     }
 }

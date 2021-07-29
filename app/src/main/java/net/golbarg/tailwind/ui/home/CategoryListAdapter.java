@@ -110,6 +110,7 @@ public class CategoryListAdapter extends ArrayAdapter<Category> {
         FragmentTransaction transaction = fragmentManager.beginTransaction();
         ContentFragment fragment = new ContentFragment(categoryId);
         transaction.replace(R.id.nav_host_fragment_activity_main, fragment);
+        transaction.addToBackStack("xyz");
         transaction.commit();
     }
 
