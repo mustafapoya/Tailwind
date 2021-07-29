@@ -43,8 +43,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:tabInlineLabel="true"
-        app:tabIconTint="?attr/tab_color"
-        app:tabTextColor="?attr/tab_color"
+        app:tabSelectedTextColor="?attr/textColor"
+        app:tabIconTint="?attr/textColor"
         app:layout_constraintTop_toBottomOf="@+id/relative_layout_header">
 
         <com.google.android.material.tabs.TabItem
