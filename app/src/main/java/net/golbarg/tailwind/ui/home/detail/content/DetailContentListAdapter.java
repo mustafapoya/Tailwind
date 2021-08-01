@@ -82,8 +82,7 @@ public class DetailContentListAdapter extends ArrayAdapter<ContentValue> {
                 AdRequest adRequest = new AdRequest.Builder().build();
                 /* real ad Unit: ca-app-pub-3540008829614888/3172047261 */
                 /* test ad Unit: ca-app-pub-3940256099942544/1033173712 */
-
-                InterstitialAd.load(context,"ca-app-pub-3940256099942544/1033173712", adRequest,
+                /*InterstitialAd.load(context,"ca-app-pub-3940256099942544/1033173712", adRequest,
                         new InterstitialAdLoadCallback() {
                             @Override
                             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
@@ -103,7 +102,7 @@ public class DetailContentListAdapter extends ArrayAdapter<ContentValue> {
 
                 if(mInterstitialAd != null) {
                     mInterstitialAd.show(context);
-                }
+                }*/
             }
         });
 

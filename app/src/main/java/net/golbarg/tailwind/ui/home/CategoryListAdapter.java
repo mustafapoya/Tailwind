@@ -71,11 +71,10 @@ public class CategoryListAdapter extends ArrayAdapter<Category> {
         rowView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
                 AdRequest adRequest = new AdRequest.Builder().build();
-                /* real ad Unit: ca-app-pub-3540008829614888/7986789044 */
+                /* real ad Unit: ca-app-pub-3540008829614888/6553273519 */
                 /* test ad Unit: ca-app-pub-3940256099942544/1033173712 */
-                InterstitialAd.load(context,"ca-app-pub-3940256099942544/1033173712", adRequest,
+                InterstitialAd.load(context,"ca-app-pub-3540008829614888/6553273519", adRequest,
                         new InterstitialAdLoadCallback() {
                             @Override
                             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
