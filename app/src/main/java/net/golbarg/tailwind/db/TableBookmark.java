@@ -1,5 +1,6 @@
 package net.golbarg.tailwind.db;
 
+import android.annotation.SuppressLint;
 import android.content.ContentValues;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
@@ -96,6 +97,7 @@ public class TableBookmark implements CRUDHandler<ContentValue> {
         return count;
     }
 
+    @SuppressLint("Range")
     @Override
     public ContentValue mapColumn(Cursor cursor) {
         return new ContentValue(

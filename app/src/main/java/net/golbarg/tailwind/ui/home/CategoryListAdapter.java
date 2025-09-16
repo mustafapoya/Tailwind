@@ -1,6 +1,7 @@
 package net.golbarg.tailwind.ui.home;
 
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -9,8 +10,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.FullScreenContentCallback;
@@ -34,7 +35,6 @@ public class CategoryListAdapter extends ArrayAdapter<Category> {
     private InterstitialAd mInterstitialAd;
     DatabaseHandler handler;
     TableContent tableContent;
-    FragmentManager fragmentManager;
 
     public CategoryListAdapter(Activity context, ArrayList<Category> categories) {
         super(context, R.layout.custom_list_category, categories);
@@ -42,15 +42,6 @@ public class CategoryListAdapter extends ArrayAdapter<Category> {
         this.categories = categories;
         this.handler = new DatabaseHandler(context);
         this.tableContent = new TableContent(handler);
-    }
-
-    public CategoryListAdapter(Activity context, ArrayList<Category> categories, FragmentManager fragmentManager) {
-        super(context, R.layout.custom_list_category, categories);
-        this.context = context;
-        this.categories = categories;
-        this.handler = new DatabaseHandler(context);
-        this.tableContent = new TableContent(handler);
-        this.fragmentManager = fragmentManager;
     }
 
     @NonNull
@@ -72,45 +63,41 @@ public class CategoryListAdapter extends ArrayAdapter<Category> {
             @Override
             public void onClick(View v) {
                 AdRequest adRequest = new AdRequest.Builder().build();
-                /* real ad Unit: ca-app-pub-3540008829614888/6553273519 */
-                /* test ad Unit: ca-app-pub-3940256099942544/1033173712 */
-                InterstitialAd.load(context,"ca-app-pub-3540008829614888/6553273519", adRequest,
+                InterstitialAd.load(context, "ca-app-pub-3540008829614888/6553273519", adRequest,
                         new InterstitialAdLoadCallback() {
                             @Override
                             public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
                                 mInterstitialAd = interstitialAd;
                             }
-
                             @Override
                             public void onAdFailedToLoad(@NonNull LoadAdError loadAdError) {
                                 mInterstitialAd = null;
                             }
                         });
 
-                if(mInterstitialAd != null) {
+                Runnable navigateToContent = () -> {
+                    Bundle args = new Bundle();
+                    args.putInt("categoryId", categories.get(position).getId());
+                    NavController navController = Navigation.findNavController(v);
+                    navController.navigate(R.id.action_navigation_home_to_navigation_content, args);
+                };
+
+                if (mInterstitialAd != null) {
                     mInterstitialAd.show(context);
                     mInterstitialAd.setFullScreenContentCallback(new FullScreenContentCallback() {
                         @Override
                         public void onAdDismissedFullScreenContent() {
                             super.onAdDismissedFullScreenContent();
-                            replaceFragments(categories.get(position).getId());
+                            navigateToContent.run();
                         }
                     });
                 } else {
-                    replaceFragments(categories.get(position).getId());
+                    navigateToContent.run();
                 }
             }
         });
 
         return rowView;
-    }
-
-    private void replaceFragments(int categoryId) {
-        FragmentTransaction transaction = fragmentManager.beginTransaction();
-        ContentFragment fragment = new ContentFragment(categoryId);
-        transaction.replace(R.id.nav_host_fragment_activity_main, fragment);
-        transaction.addToBackStack("xyz");
-        transaction.commit();
     }
 
 }

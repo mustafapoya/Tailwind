@@ -39,8 +39,12 @@ public class DetailFragment extends Fragment {
     public DetailFragment() {
     }
 
-    public DetailFragment(int contentId) {
-        this.contentId = contentId;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            contentId = getArguments().getInt("contentId", -1);
+        }
     }
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

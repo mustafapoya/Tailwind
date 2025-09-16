@@ -9,7 +9,34 @@
         android:id="@+id/navigation_home"
         android:name="net.golbarg.tailwind.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_navigation_content"
+            app:destination="@id/navigation_content" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_content"
+        android:name="net.golbarg.tailwind.ui.home.content.ContentFragment"
+        android:label="Content"
+        tools:layout="@layout/fragment_content" >
+        <action
+            android:id="@+id/action_navigation_content_to_navigation_content_detail"
+            app:destination="@id/navigation_content_detail" />
+        <action
+            android:id="@+id/action_navigation_content_to_navigation_home3"
+            app:destination="@id/navigation_home" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_content_detail"
+        android:name="net.golbarg.tailwind.ui.home.detail.DetailFragment"
+        android:label="ContentDetail"
+        tools:layout="@layout/fragment_detail" >
+        <action
+            android:id="@+id/action_navigation_content_detail_to_navigation_content3"
+            app:destination="@id/navigation_content" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_bookmark"

@@ -1,7 +1,7 @@
 package net.golbarg.tailwind.ui.home.content;
 
 import android.app.Activity;
-import android.util.Log;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,19 +10,14 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentTransaction;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import com.google.android.gms.ads.interstitial.InterstitialAd;
 
 import net.golbarg.tailwind.R;
 import net.golbarg.tailwind.db.DatabaseHandler;
-import net.golbarg.tailwind.db.TableContent;
-import net.golbarg.tailwind.db.TableContentValues;
-import net.golbarg.tailwind.model.Category;
 import net.golbarg.tailwind.model.Content;
-import net.golbarg.tailwind.model.ContentValue;
-import net.golbarg.tailwind.ui.home.detail.DetailFragment;
 
 import java.util.ArrayList;
 
@@ -33,21 +28,12 @@ public class ContentListAdapter extends ArrayAdapter<Content> {
     private final ArrayList<Content> contents;
     private InterstitialAd mInterstitialAd;
     DatabaseHandler handler;
-    FragmentManager fragmentManager;
 
     public ContentListAdapter(Activity context, ArrayList<Content> contents) {
         super(context, R.layout.custom_list_content, contents);
         this.context = context;
         this.contents = contents;
         this.handler = new DatabaseHandler(context);
-    }
-
-    public ContentListAdapter(Activity context, ArrayList<Content> contents, FragmentManager fragmentManager) {
-        super(context, R.layout.custom_list_content, contents);
-        this.context = context;
-        this.contents = contents;
-        this.handler = new DatabaseHandler(context);
-        this.fragmentManager = fragmentManager;
     }
 
     @NonNull
@@ -68,18 +54,14 @@ public class ContentListAdapter extends ArrayAdapter<Content> {
         rowView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                replaceFragments(contents.get(position).getId());
+                Bundle args = new Bundle();
+                args.putInt("contentId", contents.get(position).getId());
+                NavController navController = Navigation.findNavController(v);
+                navController.navigate(R.id.action_navigation_content_to_navigation_content_detail, args);
             }
         });
 
         return rowView;
     }
 
-    private void replaceFragments(int contentId) {
-        FragmentTransaction transaction = fragmentManager.beginTransaction();
-        DetailFragment fragment = new DetailFragment(contentId);
-        transaction.replace(R.id.nav_host_fragment_activity_main, fragment);
-        transaction.addToBackStack("xyz");
-        transaction.commit();
-    }
 }

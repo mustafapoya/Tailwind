@@ -38,8 +38,12 @@ public class ContentFragment extends Fragment {
 
     }
 
-    public ContentFragment(int categoryId) {
-        this.categoryId = categoryId;
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+            categoryId = getArguments().getInt("categoryId", -1);
+        }
     }
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -54,7 +58,7 @@ public class ContentFragment extends Fragment {
         progressLoading = root.findViewById(R.id.progress_loading);
         listViewCategory = root.findViewById(R.id.list_view_content);
 
-        contentListAdapter = new ContentListAdapter(getActivity(), contentArrayList, getParentFragmentManager());
+        contentListAdapter = new ContentListAdapter(getActivity(), contentArrayList);
         listViewCategory.setAdapter(contentListAdapter);
 
         try {

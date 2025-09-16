@@ -12,6 +12,8 @@ import android.widget.ProgressBar;
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -35,6 +37,7 @@ public class HomeFragment extends Fragment {
     private ConstraintLayout layoutMainLayout;
     DatabaseHandler dbHandler;
 
+
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_home, container, false);
         context = root.getContext();
@@ -48,7 +51,7 @@ public class HomeFragment extends Fragment {
         listViewCategory = root.findViewById(R.id.list_view_category);
         layoutMainLayout = root.findViewById(R.id.layout_main_layout);
 
-        categoryListAdapter = new CategoryListAdapter(getActivity(), categoryArrayList, getParentFragmentManager());
+        categoryListAdapter = new CategoryListAdapter(getActivity(), categoryArrayList);
         listViewCategory.setAdapter(categoryListAdapter);
 
         try {
